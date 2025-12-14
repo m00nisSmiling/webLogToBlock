@@ -3,8 +3,8 @@ import os
 import time
 
 usrname = input("| Username to install :> ")
-websvr = input("| Webserver name :> ")
-botkey = input("| Telegram bot api key [ 123432988:xyzabcdefjklmnopqrs ] :> ")
+websvr = input("| Webserver name - [ nginx/apache2 ] :> ")
+botkey = input("| Telegram bot api key - [ 123432988:xyzabcdefjklmnopqrs ] :> ")
 chatid = input("| Telegram chat id :> ")
 
 if usrname == "root":
