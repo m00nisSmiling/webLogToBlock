@@ -17,10 +17,10 @@ import subprocess
 import requests
 import os
 
-ACCESS_LOG = "/var/log/nginx/access.log"
+ACCESS_LOG = "/var/log/{websvr}/access.log"
 #IP_FILE = "/root/ip"
 #Log_file = "/var/log/moni.log"
-
+"""+"""
 #fileo = open(Log_file,"a")
 
 #print("Monitoring Nginx Server.....")
@@ -144,3 +144,4 @@ def install():
  
 install()
 os.system("rm -rf ./install.py")
+                                  
