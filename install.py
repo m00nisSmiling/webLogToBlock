@@ -136,7 +136,7 @@ def install():
 
  #time.sleep(3)
  #os.system("systemctl start moni")
- print("$ systemctl daemon-reload\n$ systemctl start moni\n$ systemctl enable moni\n$ systemctl restart")
+ print("$ systemctl daemon-reload\n$ systemctl start moni\n$ systemctl enable moni\n$ systemctl restart moni")
 
  #time.sleep(3)
  #os.system("systemctl enable moni")
