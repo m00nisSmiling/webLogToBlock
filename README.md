@@ -34,5 +34,15 @@ systemctl start moni
 systemctl enable moni
 ```
 ------------------------
-### To remove an ip address from banlist
-#### Use unban.py in your home directory of user
+
+## *** To remove an ip address from banlist ***
+```
+python3 unabn.py
+```
+
+-------------------------
+
+## *** To check the total list of banned ip and malicious information
+```
+cat /var/log/moni.log
+```
