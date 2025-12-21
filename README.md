@@ -42,7 +42,7 @@ python3 unabn.py
 
 -------------------------
 
-## *** To check the total list of banned ip and malicious information
+## *** To check the total list of banned ip and malicious information ***
 ```
 cat /var/log/moni.log
 ```
