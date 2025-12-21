@@ -49,7 +49,7 @@ while True:
             ip = last_line.split(" ")[0]
             urlr = last_line.split('"')[1]
             time = last_line.split(' ')[3]
-            if ip == "18.138.119.71":
+            if ip == "fku":
                 pass
             else:
                 if ip in list1:
